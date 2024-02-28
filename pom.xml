@@ -67,6 +67,13 @@
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
+		<configuration>
+<suiteXmlFiles>
+<suiteXmlFile>
+       testng1.xml
+</suiteXmlFile>
+</suiteXmlFiles>
+</configuration>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
